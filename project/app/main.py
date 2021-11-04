@@ -1,7 +1,6 @@
 import logging
 
-from fastapi import FastAPI, Depends
-from tortoise.contrib.fastapi import register_tortoise
+from fastapi import FastAPI
 
 from app.api import ping, summaries
 from app.db import init_db
